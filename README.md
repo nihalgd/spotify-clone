@@ -1,27 +1,61 @@
-🚀 Features
-🎧 Sidebar Navigation (Home, Search, Library)
-📂 Playlist Section
-🎵 Music Cards Display
-⏮️ ⏯️ ⏭️ Player Controls UI
-📱 Responsive Layout
-🎨 Clean and modern UI design
+# Doctor Appointment Booking System (React + Vite + JavaScript)
 
-🛠️ Technologies Used
-HTML5
-CSS3
-Flexbox
-Google Fonts
-Font Awesome (if used)
+A modern and responsive doctor appointment booking web app built using **React.js**, **Vite**, and **JavaScript** with **React Router DOM**.
 
-📁 Project Structure
-Spotify-Clone/
-│
+## Features
+
+- React Router based page navigation
+- Component-based architecture
+- Responsive modern UI using plain CSS
+- Pages included:
+  - Home
+  - About Us
+  - Services
+  - Contact
+  - Login
+  - Register
+  - Doctors List
+  - Book Appointment
+
+## Folder Structure
+
+```text
+spotify-clone/
 ├── index.html
-├── style.css
-└── assets/
-    ├── logo.png
-    ├── card1img.jpeg
-    ├── card2img.jpeg
-    ├── forward_icon.png
-    ├── backward_icon.png
-    └── library_icon.png
+├── package.json
+├── vite.config.js
+└── src/
+    ├── App.jsx
+    ├── main.jsx
+    ├── components/
+    │   ├── Footer.jsx
+    │   ├── Navbar.jsx
+    │   └── SectionTitle.jsx
+    ├── pages/
+    │   ├── About.jsx
+    │   ├── BookAppointment.jsx
+    │   ├── Contact.jsx
+    │   ├── DoctorsList.jsx
+    │   ├── Home.jsx
+    │   ├── Login.jsx
+    │   ├── Register.jsx
+    │   └── Services.jsx
+    └── styles/
+        └── global.css
+```
+
+## Getting Started
+
+```bash
+npm install
+npm run dev
+```
+
+Open `http://localhost:5173`.
+
+## Build
+
+```bash
+npm run build
+npm run preview
+```
